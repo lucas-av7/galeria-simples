@@ -31,7 +31,6 @@ setaEsq.addEventListener('click', mudarFoto);
 
 function mudarFoto(e) {
 
-    console.log(e);
     let direcao = e.target.getAttribute('class');
     
     if(fotoAtual === qtdFotos2 && direcao === 'setas setaDir'
