@@ -1,3 +1,37 @@
 body {
     background-color: antiquewhite;
 }
+
+.galeria1 {
+    max-width: 600px;
+    height: auto;
+    border: 3px solid black;
+    background-color: #ddd;
+}
+
+.imagemCheia {
+    width: 100%;
+    height: 360px;
+    overflow: hidden;
+    display: flex;
+}
+
+.imagemCheia img {
+    width: 100%;
+}
+
+.miniaturas {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.miniaturas img {
+    width: 20%;
+    float: left;
+    cursor: pointer;
+}
